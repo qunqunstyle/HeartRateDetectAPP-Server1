@@ -6,6 +6,7 @@ package action;
 
 import dao.UserDao;
 import model.User;
+import org.w3c.dom.Text;
 import utils.ActionSupportUtil;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
@@ -24,6 +25,7 @@ public class UserAction extends ActionSupportUtil {
     @Resource
     private UserDao userDao;
     private User user;
+    private Text text;
 
     public User getUser() {
         return user;

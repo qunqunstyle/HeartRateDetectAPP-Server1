@@ -1,22 +1,22 @@
 <component name="libraryTable">
   <library name="hibernate">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/hibernate3.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/c3p0-0.9.1.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/javassist-3.9.0.GA.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/hibernate-commons-annotations.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/log4j.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/hibernate-validator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/hibernate-annotations.jar!/" />
       <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/mysql-connector-java-5.1.22-bin.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/commons-collections-3.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/ejb3-persistence.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/jta-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/hibernate-commons-annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/slf4j-api-1.5.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/antlr-2.7.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/slf4j-log4j12-1.5.8.jar!/" />
       <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/dom4j-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/hibernate-validator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/ejb3-persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/commons-collections-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/hibernate3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/log4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/javassist-3.9.0.GA.jar!/" />
       <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/hibernate-entitymanager.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/slf4j-api-1.5.8.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/hibernate-annotations.jar!/" />
-      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/antlr-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/jta-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/hibernate/c3p0-0.9.1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
