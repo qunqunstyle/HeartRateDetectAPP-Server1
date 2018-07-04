@@ -19,6 +19,7 @@
     <!-- 使用 annotation 自动注册bean,并检查@Controller, @Service, @Repository注解已被注入 -->
     <context:component-scan base-package="com.message.server"/>
 
+
     <!-- 数据库配置 -->
     <bean id="dataSource"
           class="org.apache.commons.dbcp.BasicDataSource">
@@ -26,12 +27,12 @@
                   value="com.mysql.jdbc.Driver">
         </property>
         <property name="url"
-                  value="jdbc:mysql://192.168.191.1:3306/serverdb?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true">
+                  value="jdbc:mysql://localhost:3306/userdao?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true">
         </property>
         <property name="username" value="root"></property>
         <property name="password" value="12345678"></property>
-        <property name="maxActive" value="5" />
-        <property name="maxIdle" value="40" />
+        <property name="maxActive" value="1000" />
+        <property name="maxIdle" value="1000" />
         <property name="defaultAutoCommit" value="false" />
         <property name="timeBetweenEvictionRunsMillis" value="3600000" />
         <property name="minEvictableIdleTimeMillis" value="3600000" />
